@@ -1,12 +1,12 @@
 # CIS 297 - Intro to C Sharp - Winter 2023
-3 Credit Hours - Thursdays 6:00pm-8:45pm – Room TBD  
+3 Credit Hours - Thursdays 6:00pm-8:45pm – Room CASL 1043  
 Live on https://www.twitch.tv/ericcharnesky  
 Archived on https://www.youtube.com/@EricCharnesky
 
 ## Contact Information:
 Eric Charnesky, LEO Lecturer II  
-Office Hours: Th 3:20pm-5:50pm or virtual by appointment  
 Email: echarnes@umich.edu  
+Office Hours: Th 3:20pm-5:50pm or virtual by appointment  
 Office Location: GAME Lab - ELB
 
 ## Course Description: 
