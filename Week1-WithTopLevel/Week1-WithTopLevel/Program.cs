@@ -8,20 +8,22 @@ namespace Week1_WithTopLevel
         {
             Console.WriteLine("Hello, World!");
 
+            int someBigNumber = 1_236_987;
+
             int[] numbers = { 1, 2, 3, 4, 5 };
 
             int[] usersNumbers = new int[5];
-            
-            for ( int index = 0; index < usersNumbers.Length; index++)
+
+            for (int index = 0; index < usersNumbers.Length; index++)
             {
-                Console.WriteLine($"Enter number {index+1}");
+                Console.WriteLine($"Enter number {index + 1}");
                 usersNumbers[index] = Convert.ToInt32(Console.ReadLine());
             }
 
             // throws exception on bad indexes, yay!
             //usersNumbers[6] = 42;
 
-            foreach( var userNumber in usersNumbers)
+            foreach (var userNumber in usersNumbers)
             {
                 Console.WriteLine(userNumber);
             }
@@ -43,7 +45,7 @@ namespace Week1_WithTopLevel
             var inputAsNumeric = int.Parse(input);
             inputAsNumeric = Convert.ToInt32(input);
 
-            if ( inputAsNumeric > 0 && inputAsNumeric < 100)
+            if (inputAsNumeric > 0 && inputAsNumeric < 100)
             {
                 Console.WriteLine("Your number is 0-100");
             }
