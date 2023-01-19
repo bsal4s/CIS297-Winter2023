@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.clickMeButton = new System.Windows.Forms.Button();
+            this.addIncomeButton = new System.Windows.Forms.Button();
             this.incomeLabel = new System.Windows.Forms.Label();
             this.incomeTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,15 +43,15 @@
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // clickMeButton
+            // addIncomeButton
             // 
-            this.clickMeButton.Location = new System.Drawing.Point(386, 33);
-            this.clickMeButton.Name = "clickMeButton";
-            this.clickMeButton.Size = new System.Drawing.Size(122, 29);
-            this.clickMeButton.TabIndex = 0;
-            this.clickMeButton.Text = "Add Income";
-            this.clickMeButton.UseVisualStyleBackColor = true;
-            this.clickMeButton.Click += new System.EventHandler(this.clickMeButton_Click);
+            this.addIncomeButton.Location = new System.Drawing.Point(386, 33);
+            this.addIncomeButton.Name = "addIncomeButton";
+            this.addIncomeButton.Size = new System.Drawing.Size(122, 29);
+            this.addIncomeButton.TabIndex = 0;
+            this.addIncomeButton.Text = "Add Income";
+            this.addIncomeButton.UseVisualStyleBackColor = true;
+            this.addIncomeButton.Click += new System.EventHandler(this.addIncomeButton_Click);
             // 
             // incomeLabel
             // 
@@ -168,7 +168,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.incomeTextBox);
             this.Controls.Add(this.incomeLabel);
-            this.Controls.Add(this.clickMeButton);
+            this.Controls.Add(this.addIncomeButton);
             this.Name = "Form1";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
@@ -180,7 +180,7 @@
 
         #endregion
 
-        private Button clickMeButton;
+        private Button addIncomeButton;
         private Label incomeLabel;
         private TextBox incomeTextBox;
         private Label label1;

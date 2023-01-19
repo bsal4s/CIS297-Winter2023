@@ -127,12 +127,13 @@ namespace Week2_WindowsFormProgram
             }
         }
 
-        private void clickMeButton_Click(object sender, EventArgs e)
+        private void addIncomeButton_Click(object sender, EventArgs e)
         {
             grossIncome += Convert.ToInt32(incomeTextBox.Text);
             incomeTextBox.Text = string.Empty; // same as "" 
             incomeLabel.Text = $"Gross Income: ${grossIncome}";
             caluclateTax();
+            // addIncomeButton.Enabled = false;
         }
 
         private void deductionButton_Click(object sender, EventArgs e)
