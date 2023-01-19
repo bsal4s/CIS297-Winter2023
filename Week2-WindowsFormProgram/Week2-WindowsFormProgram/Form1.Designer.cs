@@ -29,49 +29,49 @@
         private void InitializeComponent()
         {
             this.clickMeButton = new System.Windows.Forms.Button();
-            this.label = new System.Windows.Forms.Label();
-            this.nameTextBox = new System.Windows.Forms.TextBox();
+            this.incomeLabel = new System.Windows.Forms.Label();
+            this.incomeTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.deductionTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.dedutionsLabel = new System.Windows.Forms.Label();
             this.deductionButton = new System.Windows.Forms.Button();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.singleRaidoButton = new System.Windows.Forms.RadioButton();
+            this.marriedRadioButton = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.taxInfoLabel = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // clickMeButton
             // 
-            this.clickMeButton.Location = new System.Drawing.Point(160, 175);
+            this.clickMeButton.Location = new System.Drawing.Point(386, 33);
             this.clickMeButton.Name = "clickMeButton";
-            this.clickMeButton.Size = new System.Drawing.Size(172, 29);
+            this.clickMeButton.Size = new System.Drawing.Size(122, 29);
             this.clickMeButton.TabIndex = 0;
-            this.clickMeButton.Text = "Click Me";
+            this.clickMeButton.Text = "Add Income";
             this.clickMeButton.UseVisualStyleBackColor = true;
             this.clickMeButton.Click += new System.EventHandler(this.clickMeButton_Click);
             // 
-            // label
+            // incomeLabel
             // 
-            this.label.AutoSize = true;
-            this.label.Location = new System.Drawing.Point(215, 250);
-            this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(0, 20);
-            this.label.TabIndex = 1;
+            this.incomeLabel.AutoSize = true;
+            this.incomeLabel.Location = new System.Drawing.Point(32, 107);
+            this.incomeLabel.Name = "incomeLabel";
+            this.incomeLabel.Size = new System.Drawing.Size(0, 20);
+            this.incomeLabel.TabIndex = 1;
             // 
-            // nameTextBox
+            // incomeTextBox
             // 
-            this.nameTextBox.Location = new System.Drawing.Point(298, 86);
-            this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(125, 27);
-            this.nameTextBox.TabIndex = 2;
+            this.incomeTextBox.Location = new System.Drawing.Point(246, 34);
+            this.incomeTextBox.Name = "incomeTextBox";
+            this.incomeTextBox.Size = new System.Drawing.Size(125, 27);
+            this.incomeTextBox.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(75, 89);
+            this.label1.Location = new System.Drawing.Point(23, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(217, 20);
             this.label1.TabIndex = 3;
@@ -79,7 +79,7 @@
             // 
             // deductionTextBox
             // 
-            this.deductionTextBox.Location = new System.Drawing.Point(491, 292);
+            this.deductionTextBox.Location = new System.Drawing.Point(246, 67);
             this.deductionTextBox.Name = "deductionTextBox";
             this.deductionTextBox.Size = new System.Drawing.Size(125, 27);
             this.deductionTextBox.TabIndex = 4;
@@ -87,7 +87,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(316, 292);
+            this.label2.Location = new System.Drawing.Point(22, 67);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(160, 20);
             this.label2.TabIndex = 5;
@@ -96,15 +96,14 @@
             // dedutionsLabel
             // 
             this.dedutionsLabel.AutoSize = true;
-            this.dedutionsLabel.Location = new System.Drawing.Point(508, 156);
+            this.dedutionsLabel.Location = new System.Drawing.Point(32, 155);
             this.dedutionsLabel.Name = "dedutionsLabel";
-            this.dedutionsLabel.Size = new System.Drawing.Size(50, 20);
+            this.dedutionsLabel.Size = new System.Drawing.Size(0, 20);
             this.dedutionsLabel.TabIndex = 6;
-            this.dedutionsLabel.Text = "label3";
             // 
             // deductionButton
             // 
-            this.deductionButton.Location = new System.Drawing.Point(543, 231);
+            this.deductionButton.Location = new System.Drawing.Point(386, 68);
             this.deductionButton.Name = "deductionButton";
             this.deductionButton.Size = new System.Drawing.Size(94, 29);
             this.deductionButton.TabIndex = 7;
@@ -112,67 +111,63 @@
             this.deductionButton.UseVisualStyleBackColor = true;
             this.deductionButton.Click += new System.EventHandler(this.deductionButton_Click);
             // 
-            // radioButton1
+            // singleRaidoButton
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(38, 37);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(117, 24);
-            this.radioButton1.TabIndex = 8;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.singleRaidoButton.AutoSize = true;
+            this.singleRaidoButton.Checked = true;
+            this.singleRaidoButton.Location = new System.Drawing.Point(38, 37);
+            this.singleRaidoButton.Name = "singleRaidoButton";
+            this.singleRaidoButton.Size = new System.Drawing.Size(71, 24);
+            this.singleRaidoButton.TabIndex = 8;
+            this.singleRaidoButton.TabStop = true;
+            this.singleRaidoButton.Text = "Single";
+            this.singleRaidoButton.UseVisualStyleBackColor = true;
+            this.singleRaidoButton.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
-            // radioButton2
+            // marriedRadioButton
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(38, 67);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(117, 24);
-            this.radioButton2.TabIndex = 9;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(38, 95);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(117, 24);
-            this.radioButton3.TabIndex = 10;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.marriedRadioButton.AutoSize = true;
+            this.marriedRadioButton.Location = new System.Drawing.Point(38, 67);
+            this.marriedRadioButton.Name = "marriedRadioButton";
+            this.marriedRadioButton.Size = new System.Drawing.Size(82, 24);
+            this.marriedRadioButton.TabIndex = 9;
+            this.marriedRadioButton.Text = "Married";
+            this.marriedRadioButton.UseVisualStyleBackColor = true;
+            this.marriedRadioButton.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Location = new System.Drawing.Point(42, 250);
+            this.groupBox1.Controls.Add(this.singleRaidoButton);
+            this.groupBox1.Controls.Add(this.marriedRadioButton);
+            this.groupBox1.Location = new System.Drawing.Point(32, 208);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(250, 125);
+            this.groupBox1.Size = new System.Drawing.Size(133, 125);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Filing Status";
+            // 
+            // taxInfoLabel
+            // 
+            this.taxInfoLabel.AutoSize = true;
+            this.taxInfoLabel.Location = new System.Drawing.Point(413, 175);
+            this.taxInfoLabel.Name = "taxInfoLabel";
+            this.taxInfoLabel.Size = new System.Drawing.Size(0, 20);
+            this.taxInfoLabel.TabIndex = 12;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.taxInfoLabel);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.deductionButton);
             this.Controls.Add(this.dedutionsLabel);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.deductionTextBox);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.nameTextBox);
-            this.Controls.Add(this.label);
+            this.Controls.Add(this.incomeTextBox);
+            this.Controls.Add(this.incomeLabel);
             this.Controls.Add(this.clickMeButton);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -186,16 +181,16 @@
         #endregion
 
         private Button clickMeButton;
-        private Label label;
-        private TextBox nameTextBox;
+        private Label incomeLabel;
+        private TextBox incomeTextBox;
         private Label label1;
         private TextBox deductionTextBox;
         private Label label2;
         private Label dedutionsLabel;
         private Button deductionButton;
-        private RadioButton radioButton1;
-        private RadioButton radioButton2;
-        private RadioButton radioButton3;
+        private RadioButton singleRaidoButton;
+        private RadioButton marriedRadioButton;
         private GroupBox groupBox1;
+        private Label taxInfoLabel;
     }
 }
