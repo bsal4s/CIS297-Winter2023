@@ -46,11 +46,13 @@ namespace Week3_ObjectOrientedProgramming
             {
                 drinkVolumeTextBox.Text = "";
                 dislayCup(cup2);
+                this.drinkCoffeeButton.BackColor = System.Drawing.SystemColors.Control;
             }
             else
             {
                 dislayCup(cup2);
                 label1.Text += "\nYou can't drink that much...";
+                this.drinkCoffeeButton.BackColor = System.Drawing.Color.Red;
             }
             Rectangle smallRectangle = new Rectangle();
             Random random = new Random();

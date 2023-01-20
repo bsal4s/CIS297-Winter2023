@@ -57,13 +57,14 @@
             // 
             // drinkCoffeeButton
             // 
+            this.drinkCoffeeButton.BackColor = System.Drawing.SystemColors.HotTrack;
             this.drinkCoffeeButton.Enabled = false;
             this.drinkCoffeeButton.Location = new System.Drawing.Point(445, 125);
             this.drinkCoffeeButton.Name = "drinkCoffeeButton";
             this.drinkCoffeeButton.Size = new System.Drawing.Size(134, 29);
             this.drinkCoffeeButton.TabIndex = 2;
             this.drinkCoffeeButton.Text = "Drink Coffee";
-            this.drinkCoffeeButton.UseVisualStyleBackColor = true;
+            this.drinkCoffeeButton.UseVisualStyleBackColor = false;
             this.drinkCoffeeButton.Click += new System.EventHandler(this.button2_Click);
             // 
             // drinkVolumeTextBox
