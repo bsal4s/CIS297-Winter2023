@@ -33,6 +33,7 @@
             this.drinkCoffeeButton = new System.Windows.Forms.Button();
             this.drinkVolumeTextBox = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.holdDie1CheckBox = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,11 +83,22 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
+            // holdDie1CheckBox
+            // 
+            this.holdDie1CheckBox.AutoSize = true;
+            this.holdDie1CheckBox.Location = new System.Drawing.Point(521, 324);
+            this.holdDie1CheckBox.Name = "holdDie1CheckBox";
+            this.holdDie1CheckBox.Size = new System.Drawing.Size(103, 24);
+            this.holdDie1CheckBox.TabIndex = 5;
+            this.holdDie1CheckBox.Text = "Hold Die 1";
+            this.holdDie1CheckBox.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.holdDie1CheckBox);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.drinkVolumeTextBox);
             this.Controls.Add(this.drinkCoffeeButton);
@@ -107,5 +119,6 @@
         private Button drinkCoffeeButton;
         private TextBox drinkVolumeTextBox;
         private PictureBox pictureBox1;
+        private CheckBox holdDie1CheckBox;
     }
 }
