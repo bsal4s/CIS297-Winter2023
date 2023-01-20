@@ -53,8 +53,10 @@ namespace Week3_ObjectOrientedProgramming
                 label1.Text += "\nYou can't drink that much...";
             }
             Rectangle smallRectangle = new Rectangle();
-            smallRectangle.Length = 10;
-            smallRectangle.Width = 5;
+            Random random = new Random();
+            // next is NOT inclusive of the upper bound
+            smallRectangle.Length = random.Next(1, 100); // 1-99
+            smallRectangle.Width = random.Next(1, 100);
             label1.Text += $"\n Area of a rectangle is {smallRectangle.Area}";
             label1.Text += $"\n Area of a rectangle is {smallRectangle.getArea()}";
         }
