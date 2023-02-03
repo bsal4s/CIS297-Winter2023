@@ -1,7 +1,7 @@
 ﻿
 namespace Yahtzee
 {
-    public class Player
+    public class Player : IComparable<Player>
     {
         public int? OnesScore { get; private set; }
         public int? TwosScore { get; private set; }
@@ -137,6 +137,15 @@ namespace Yahtzee
             {
                 ChanceScore = score;
             }
+        }
+
+        public int CompareTo(Player? other)
+        {
+            if (other == null)
+            {
+                return 1;
+            }
+            return GrandTotal - other.GrandTotal;
         }
 
         public int UpperTotal =>

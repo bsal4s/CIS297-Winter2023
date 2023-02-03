@@ -9,7 +9,7 @@ namespace Yahtzee
         public int Die4 { get; private set; }
         public int Die5 { get; private set; }
 
-        private static Random random = new Random();
+        private IRandom random;
 
         public int NumberOfRollsLeft { get; private set; }
 
@@ -19,8 +19,10 @@ namespace Yahtzee
         public bool HoldDie4 { get; set; }
         public bool HoldDie5 { get; set; }
 
-        public Dice()
+        public Dice(IRandom random)
         {
+            this.random = random;
+
             Die1 = random.Next(1, 7);
             Die2 = random.Next(1, 7);
             Die3 = random.Next(1, 7);
@@ -34,6 +36,8 @@ namespace Yahtzee
             HoldDie3 = false;
             HoldDie4 = false;
             HoldDie5 = false;
+
+            
         }
 
         public void roll()

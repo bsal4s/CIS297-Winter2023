@@ -13,7 +13,7 @@ namespace Yahtzee
             InitializeComponent();
             player1 = new Player();
             player2 = new Player();
-            dice = new Dice();
+            dice = new Dice(new ActuallyRandom());
             
             possibleScores = new YahtzeeScores(dice);
 
@@ -236,7 +236,7 @@ namespace Yahtzee
                 currentPlayer = player1;
             }
 
-            dice = new Dice();
+            dice = new Dice(new ActuallyRandom());
             possibleScores = new YahtzeeScores(dice);
             updateLabels();
             rollButton.Enabled = true;
