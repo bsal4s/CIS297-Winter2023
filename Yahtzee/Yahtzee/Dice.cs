@@ -3,6 +3,8 @@ namespace Yahtzee
 {
     public class Dice
     {
+        public event Action? Rolled;
+
         public int Die1 { get; private set; }
         public int Die2 { get; private set; }
         public int Die3 { get; private set; }
@@ -66,6 +68,8 @@ namespace Yahtzee
                     Die5 = random.Next(1, 7);
                 }
             }
+
+            Rolled?.Invoke();
         }
     }
 }

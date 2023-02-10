@@ -14,6 +14,8 @@ namespace Yahtzee
             player1 = new Player();
             player2 = new Player();
             dice = new Dice(new ActuallyRandom());
+            updateDiceLabels();
+            dice.Rolled += updateDiceLabels;
             
             possibleScores = new YahtzeeScores(dice);
 
@@ -30,7 +32,7 @@ namespace Yahtzee
             // check player1 grand total vs player 2 grand total
             
             
-            updateDiceLabels();
+            //updateDiceLabels();
             updateScoreLabels();
             updateScoreButtons();
 
@@ -237,6 +239,8 @@ namespace Yahtzee
             }
 
             dice = new Dice(new ActuallyRandom());
+            updateDiceLabels();
+            dice.Rolled += updateDiceLabels;
             possibleScores = new YahtzeeScores(dice);
             updateLabels();
             rollButton.Enabled = true;
