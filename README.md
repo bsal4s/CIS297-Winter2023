@@ -42,7 +42,7 @@ Week 3 – 1/19 | OOP in C# part 1 | PG 15-32 | https://youtu.be/rJtf4WQmfRQ
 Week 4 – 1/26 | OOP in C# part 2 | PG 15-32 | https://youtu.be/_GKyhdoulic
 Week 5 – 2/2 | OOP in C# part 3 | PG 15-32 | https://youtu.be/mvK1bQxNpSg
 Week 6 – 2/9 | Advanced Topics part 1 | PG 33-51 | https://youtu.be/jSmNcf6YTa4
-Week 7 - 2/16 | Advanced Topics part 2 | PG 33-51
+Week 7 - 2/16 | Advanced Topics part 2 | PG 33-51 | https://youtu.be/YE8UieTkDjg
 Week 8 – 2/23 | Midterm
 Week 9 – 3/2 | Winter Break
 Week 10 – 3/9 | Database Programming | Supplemental
