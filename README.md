@@ -45,8 +45,8 @@ Week 6 – 2/9 | Advanced Topics part 1 | PG 33-51 | https://youtu.be/jSmNcf6YTa
 Week 7 - 2/16 | Advanced Topics part 2 | PG 33-51 | https://youtu.be/YE8UieTkDjg
 Week 8 – 2/23 | Midterm
 Week 9 – 3/2 | Winter Break
-Week 10 – 3/9 | Database Programming | Supplemental
-Week 11 – 3/16 | Data Handing | Supplemental
+Week 10 – 3/9 | Intro to Databases | Supplemental | https://youtu.be/TxYuI0W-8Ac
+Week 11 – 3/16 | Database Programming & Entity Framework | Supplemental
 Week 12 – 3/23 | Universal Windows Platform - XAML | Supplemental
 Week 13 – 3/30 | Universal Windows Platform – Graphics | Supplemental
 Week 14 – 4/6 | Universal Windows Platform – Game building | Supplemental
